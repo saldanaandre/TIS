@@ -1,0 +1,51 @@
+/*
+	Color fondo: #632432;
+	Color header: 246355;
+	Color borde: 0F362D;
+	Color iluminado: 369681;
+*/
+body{
+	background: silver;
+	font-family: sans-serif;
+    box-shadow: 10px
+}
+
+#main-container{
+	margin: 150px auto;
+	width: 500px;
+}
+
+table{
+	opacity: 1;
+	text-align: left;
+	border-collapse: separate;
+  	border-spacing:  0.5px;
+	width: 100%;
+	border-radius: 12px;
+	background: #3498db;
+    color: white;letra del cuadro
+}
+th{
+	width:200px; 
+	background-color: #5DACCD;
+	 color:#fff;
+}
+td{
+	padding: 12px;
+	border-radius: 8px;
+}
+
+thead{
+	background-color: #a4b0be;
+	border-bottom: solid 2px black;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #3498db;
+}
+
+tr:hover td{
+	background-color: #12CBC4;color de paso del 
+	color: black;
+}

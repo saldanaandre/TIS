@@ -1,0 +1,61 @@
+
+
+body,html {
+	font-family: 'Open Sans', Sans-serif;
+	overflow-x: hidden; /* Aqui overflow: hidden; esta el problema */
+	
+}
+
+.sidebar {
+	position: fixed;
+	width: 250px;
+	height: 100%; 
+	background: #333;
+	color: #fff;
+	outline: 1px solid #2a2a2a;
+}
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.sidebar h2 {
+	text-align: center;
+	margin: 0;
+	background: #2a2a2a;
+	padding: 10px;
+}
+.sidebar li {
+	outline: 1px solid #2a2a2a;
+	transition: all 0.3s;
+}
+.sidebar li:hover {
+	background: #444;
+	border-left: 5px solid #eee;
+	
+}
+.sidebar a {
+	display: block;
+	color: #FFF;
+	padding: 10px;
+	text-decoration: none;
+}
+.contenido {
+	width: 100%;
+	position: fixed;
+	position: absolute;
+	background: #fff;
+	padding: 30px;
+	transition: all 0.3s;
+	box-sizing: border-box;
+}
+.menu-bar {
+	cursor: pointer;
+	width: 4%;
+	height: 4%;
+	
+}
+.abrir {
+	transform: translateX(250px);
+	
+}
